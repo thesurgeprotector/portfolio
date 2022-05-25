@@ -1,0 +1,39 @@
+* {
+    font-size: 16;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gainsboro;
+}
+ /* Header */
+#header{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    margin: 2rem, 3rem;
+    padding: 2rem, 3rem;
+}
+
+#header.h1 {
+    font-size: 2em;
+    z-index: 1;
+    top: 0;
+}
+
+/* Nav bar */
+nav {
+   display: grid;
+   grid-template-rows: 1fr;
+   grid-template-columns: 2fr;
+   nav-right: auto;
+}
+
+li{
+    display: inline;
+    padding: 2em;
+}
+
+/* Body */
+body {
+    display: grid;
+    grid-template-rows: 9fr;
+    grid-template-rows: 3fr;
+}
